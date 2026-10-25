@@ -1,0 +1,276 @@
+# Starter legal corpus for Indian commercial / contract litigation (brief section 6, blueprint section 11).
+#
+# IMPORTANT: every passage below is a PARAPHRASED SUMMARY written by the build team, not the official text.
+# They are loaded with verification_status = UNVERIFIED and shown with an "unverified" badge in the UI.
+# Before relying on any of it, replace `content` with the official text from India Code (statutes) or SCR / eCourts
+# (judgments), record the citation and paragraph numbers, set `verified_by` / `verified_on`, and set
+# `verification_status: VERIFIED`. The loader refuses nothing: verification is a human step (blueprint 11, point 5).
+sources:
+  - key: indian-contract-act-1872
+    type: STATUTE
+    title: Indian Contract Act, 1872
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: s.39
+        heading: Effect of refusal of party to perform promise wholly
+        tags: [termination, delay]
+        content: >
+          When a party to a contract refuses to perform, or disables himself from performing, his promise in its entirety,
+          the promisee may put an end to the contract, unless he has signified, by words or conduct, that he accepts the
+          contract as continuing.
+      - section_ref: s.55
+        heading: Effect of failure to perform at a fixed time, in a contract in which time is essential
+        tags: [time_essence, delay, liquidated_damages]
+        content: >
+          If a party promises to do something at or before a specified time and fails to do so, the contract (or the part not
+          yet performed) becomes voidable at the option of the promisee if the parties intended time to be of the essence.
+          If time was not of the essence the contract is not voidable, but the promisee is entitled to compensation for the
+          loss caused by the delay. If the promisee accepts late performance of a contract that was voidable for delay, he
+          cannot claim compensation for the delay unless he gave notice of his intention to do so when accepting performance.
+      - section_ref: s.62
+        heading: Effect of novation, rescission and alteration of contract
+        tags: [amendment_of_pleadings, delay, termination]
+        content: >
+          If the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original
+          contract need not be performed. A signed variation of a contract term therefore replaces the original term.
+      - section_ref: s.73
+        heading: Compensation for loss or damage caused by breach of contract
+        tags: [delay, liquidated_damages, recovery_of_price, interest]
+        content: >
+          When a contract has been broken, the party who suffers by the breach is entitled to receive compensation from the
+          party who broke it for any loss or damage caused to him which naturally arose in the usual course of things from
+          the breach, or which the parties knew, when they made the contract, to be likely to result from it. Compensation
+          is not given for remote and indirect loss. The means of remedying the inconvenience that existed are to be taken
+          into account when estimating the loss.
+      - section_ref: s.74
+        heading: Compensation for breach of contract where a penalty is stipulated for
+        tags: [liquidated_damages, penalty, delay]
+        content: >
+          When a contract has been broken and it names a sum payable on breach, or contains any other stipulation by way of
+          penalty, the party complaining of the breach is entitled, whether or not actual damage or loss is proved, to
+          reasonable compensation not exceeding the amount named or the penalty stipulated. Liquidated damages clauses are
+          therefore enforced only up to reasonable compensation.
+  - key: specific-relief-act-1963
+    type: STATUTE
+    title: Specific Relief Act, 1963
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: s.10
+        heading: Specific performance of contracts
+        tags: [specific_performance]
+        content: >
+          Subject to the other provisions of the Act, the specific performance of a contract is enforced by the court.
+          (As amended in 2018, specific performance is no longer a purely discretionary remedy.)
+      - section_ref: s.14
+        heading: Contracts not specifically enforceable
+        tags: [specific_performance, termination]
+        content: >
+          A contract cannot be specifically enforced where the party has obtained substituted performance under section 20;
+          where it involves a continuous duty that the court cannot supervise; where it depends so much on the personal
+          qualifications of the parties that the court cannot enforce its material terms; or where it is in its nature
+          determinable.
+      - section_ref: s.41
+        heading: Injunction when refused
+        tags: [interim_injunction]
+        content: >
+          An injunction cannot be granted in the circumstances listed in this section, including where equally efficacious
+          relief can certainly be obtained by another usual mode of proceeding, where the applicant's conduct disentitles him
+          to the assistance of the court, or where the applicant has no personal interest in the matter.
+      - section_ref: s.42
+        heading: Injunction to perform a negative agreement
+        tags: [interim_injunction, termination, arbitration_clause]
+        content: >
+          Where a contract contains an affirmative agreement to do an act coupled with a negative agreement (express or
+          implied) not to do a certain act, the fact that the court cannot compel specific performance of the affirmative
+          agreement does not stop it from granting an injunction to enforce the negative agreement, provided the plaintiff
+          has not failed to perform the contract so far as it binds him.
+  - key: code-of-civil-procedure-1908
+    type: STATUTE
+    title: Code of Civil Procedure, 1908
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: Order VI r.17
+        heading: Amendment of pleadings
+        tags: [amendment_of_pleadings]
+        content: >
+          The court may at any stage of the proceedings allow either party to alter or amend his pleadings in such manner and
+          on such terms as may be just, and all amendments necessary to determine the real questions in controversy are to be
+          allowed. After the trial has begun, an amendment is not allowed unless the court finds that the party could not have
+          raised the matter earlier despite due diligence.
+      - section_ref: Order VII r.11
+        heading: Rejection of plaint
+        tags: [pre_institution_mediation, summary_suit]
+        content: >
+          A plaint is rejected where it does not disclose a cause of action, where the relief is undervalued or the plaint is
+          insufficiently stamped and the plaintiff does not correct this, where the suit appears from the plaint to be barred
+          by law, or where it is not filed in duplicate or the plaintiff fails to comply with the statutory requirement.
+      - section_ref: Order VIII r.1
+        heading: Written statement
+        tags: [amendment_of_pleadings]
+        content: >
+          The defendant presents a written statement of his defence within thirty days of service of summons. The court may
+          allow it to be filed later, but not beyond the outer time limit fixed by the Code (and by the Commercial Courts Act
+          for commercial suits).
+      - section_ref: Order XIII-A
+        heading: Summary judgment in commercial disputes
+        tags: [summary_judgment, recovery_of_price, summary_suit]
+        content: >
+          In a commercial dispute the court may give summary judgment against a plaintiff or a defendant if it considers that
+          the party has no real prospect of succeeding on the claim or defending it, and there is no other compelling reason
+          why the claim should not be disposed of before oral evidence is recorded.
+      - section_ref: Order XXXVII
+        heading: Summary suits
+        tags: [summary_suit, recovery_of_price, interest]
+        content: >
+          A special summary procedure applies to suits on bills of exchange, hundis and promissory notes, and to suits to
+          recover a debt or liquidated demand in money, with or without interest, arising on a written contract. The defendant
+          must obtain leave of the court to defend; where leave is refused the plaintiff is entitled to a decree.
+      - section_ref: Order XXXIX rr.1-2
+        heading: Temporary injunctions
+        tags: [interim_injunction, termination]
+        content: >
+          The court may grant a temporary injunction where property in dispute is in danger of being wasted, damaged or
+          alienated, where the defendant threatens to dispossess the plaintiff or otherwise injure him in relation to property
+          in dispute, and, under Rule 2, to restrain a breach of contract or other injury. An applicant must usually show a
+          prima facie case, balance of convenience and irreparable injury.
+  - key: commercial-courts-act-2015
+    type: STATUTE
+    title: Commercial Courts Act, 2015
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: s.2(1)(c)
+        heading: Definition of commercial dispute
+        tags: [recovery_of_price, summary_suit]
+        content: >
+          A commercial dispute includes disputes arising from ordinary transactions of merchants, bankers, financiers and
+          traders, export and import of goods or services, construction and infrastructure contracts, franchising,
+          distribution and licensing agreements, and similar commercial relationships.
+      - section_ref: s.12A
+        heading: Pre-institution mediation and settlement
+        tags: [pre_institution_mediation]
+        content: >
+          A suit that does not contemplate urgent interim relief shall not be instituted unless the plaintiff has exhausted
+          the remedy of pre-institution mediation in the manner prescribed by the rules.
+  - key: arbitration-and-conciliation-act-1996
+    type: STATUTE
+    title: Arbitration and Conciliation Act, 1996
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: s.8
+        heading: Power to refer parties to arbitration where there is an arbitration agreement
+        tags: [arbitration_clause]
+        content: >
+          A judicial authority before which an action is brought in a matter that is the subject of an arbitration agreement
+          must refer the parties to arbitration if a party so applies not later than when submitting his first statement on
+          the substance of the dispute, unless it finds that prima facie no valid arbitration agreement exists.
+      - section_ref: s.9
+        heading: Interim measures by the court
+        tags: [interim_measures, interim_injunction, arbitration_clause]
+        content: >
+          A party may apply to a court before or during arbitral proceedings, or after the award but before enforcement, for
+          interim measures such as preserving or securing property, securing the amount in dispute, an interim injunction or
+          the appointment of a receiver. Once the arbitral tribunal is constituted the court entertains such applications only
+          where the remedy before the tribunal is not efficacious.
+      - section_ref: s.11
+        heading: Appointment of arbitrators
+        tags: [arbitration_clause]
+        content: >
+          The parties may agree a procedure for appointing arbitrators; failing that, a party may apply to the High Court or
+          the Supreme Court (as the case may be) to make the appointment.
+  - key: general-clauses-act-1897
+    type: STATUTE
+    title: General Clauses Act, 1897
+    source_url: https://www.indiacode.nic.in/
+    passages:
+      - section_ref: s.10
+        heading: Computation of time
+        tags: [delay, amendment_of_pleadings]
+        content: >
+          Where an act or proceeding is directed or allowed to be done in a court or office on a certain day or within a
+          prescribed period, and the court or office is closed on that day or on the last day of the period, the act is in
+          time if done on the next day on which the court or office is open.
+  - key: kailash-nath-associates-v-dda
+    type: JUDGMENT
+    title: Kailash Nath Associates v. Delhi Development Authority
+    citation: "(2015) 4 SCC 136"
+    court: Supreme Court of India
+    decision_date: 2015-01-09
+    source_url: https://scr.sci.gov.in/scrsearch/
+    passages:
+      - heading: Section 74 and stipulated damages (summary; paragraph text not loaded)
+        tags: [liquidated_damages, penalty]
+        content: >
+          Summary: section 74 of the Contract Act applies to stipulated sums and forfeiture clauses. The party complaining of
+          breach is entitled to reasonable compensation not exceeding the stipulated sum; where the loss is impossible or
+          difficult to prove, the stipulated sum can be taken as a reasonable pre-estimate. The court must be satisfied that
+          the sum is not a penalty in the sense of being unreasonable.
+  - key: ongc-v-saw-pipes
+    type: JUDGMENT
+    title: Oil and Natural Gas Corporation Ltd v. Saw Pipes Ltd
+    citation: "(2003) 5 SCC 705"
+    court: Supreme Court of India
+    decision_date: 2003-04-17
+    source_url: https://scr.sci.gov.in/scrsearch/
+    treatment_note: Its public-policy reasoning under section 34 of the Arbitration Act was narrowed by the 2015 amendment to that section.
+    passages:
+      - heading: Sections 73 and 74 and liquidated damages (summary; paragraph text not loaded)
+        tags: [liquidated_damages, penalty, delay]
+        content: >
+          Summary: where a contract names a sum payable on breach, the court examines whether it is a genuine pre-estimate;
+          section 73 and 74 are read together, and actual loss need not be proved where the clause fixes the compensation and
+          the loss is difficult to quantify. The decision is frequently cited on liquidated damages for delay.
+  - key: hind-construction-contractors-v-state-of-maharashtra
+    type: JUDGMENT
+    title: Hind Construction Contractors v. State of Maharashtra
+    citation: "(1979) 2 SCC 70"
+    court: Supreme Court of India
+    source_url: https://scr.sci.gov.in/scrsearch/
+    passages:
+      - heading: Whether time is of the essence (summary; paragraph text not loaded)
+        tags: [time_essence, delay]
+        content: >
+          Summary: whether time is of the essence is decided from the intention of the parties as shown by the contract as a
+          whole. Clauses providing for extension of time and for liquidated damages for delay indicate that time was not
+          intended to be of the essence even if a completion date is stated.
+  - key: patil-automation-v-rakheja-engineers
+    type: JUDGMENT
+    title: Patil Automation Pvt Ltd v. Rakheja Engineers Pvt Ltd
+    citation: "(2022) 10 SCC 1"
+    court: Supreme Court of India
+    decision_date: 2022-08-17
+    source_url: https://scr.sci.gov.in/scrsearch/
+    passages:
+      - heading: Section 12A of the Commercial Courts Act is mandatory (summary; paragraph text not loaded)
+        tags: [pre_institution_mediation, summary_suit]
+        content: >
+          Summary: pre-institution mediation under section 12A of the Commercial Courts Act is mandatory for suits that do not
+          contemplate urgent interim relief; a plaint filed without it is liable to rejection under Order VII Rule 11, with the
+          requirement applying prospectively from the date fixed in the judgment.
+  - key: dalpat-kumar-v-prahlad-singh
+    type: JUDGMENT
+    title: Dalpat Kumar v. Prahlad Singh
+    citation: "(1992) 1 SCC 719"
+    court: Supreme Court of India
+    decision_date: 1991-12-12
+    source_url: https://scr.sci.gov.in/scrsearch/
+    passages:
+      - heading: Tests for a temporary injunction (summary; paragraph text not loaded)
+        tags: [interim_injunction]
+        content: >
+          Summary: an applicant for an interim injunction must show a prima facie case, that the balance of convenience is in
+          his favour, and that he will suffer irreparable injury if the injunction is refused. A prima facie case means a
+          substantial question to be investigated, not a certainty of success.
+  - key: indian-oil-corp-v-amritsar-gas-service
+    type: JUDGMENT
+    title: Indian Oil Corporation Ltd v. Amritsar Gas Service
+    citation: "(1991) 1 SCC 533"
+    court: Supreme Court of India
+    decision_date: 1990-11-22
+    source_url: https://scr.sci.gov.in/scrsearch/
+    passages:
+      - heading: Termination of a determinable distribution agreement (summary; paragraph text not loaded)
+        tags: [termination, specific_performance, interim_injunction, arbitration_clause]
+        content: >
+          Summary: where an agreement is in its nature determinable (terminable by notice), termination in accordance with the
+          notice clause cannot ordinarily be restrained by injunction or enforced against by specific performance; the
+          aggrieved party's remedy lies in damages, and the court looks at whether the stipulated notice was given.

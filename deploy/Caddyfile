@@ -1,0 +1,22 @@
+# Automatic HTTPS (Let's Encrypt) for a public host name; use `localhost` for a local TLS test.
+{$PUBLIC_HOST:localhost} {
+	encode zstd gzip
+	request_body {
+		max_size 100MB
+	}
+	handle /api/* {
+		reverse_proxy api:8000 {
+			flush_interval -1
+			transport http {
+				response_header_timeout 600s
+			}
+		}
+	}
+	handle {
+		reverse_proxy ui:80
+	}
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		-Server
+	}
+}

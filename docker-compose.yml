@@ -1,0 +1,76 @@
+# Local, zero-cost stack:  docker compose up --build
+#   - db      PostgreSQL 16 + pgvector 0.8
+#   - api     FastAPI (http://localhost:8000/docs)
+#   - worker  ingestion worker (PostgreSQL job queue)
+#   - ui      React app (http://localhost:8080)
+# Models run in Ollama. Either use Ollama on your host (default, OLLAMA_BASE_URL below)
+# or start the bundled one:  docker compose --profile with-ollama up --build
+name: legal-workspace
+
+x-app-env: &app-env
+  DATABASE_URL: postgresql://lw:lw@db:5432/legal_workspace
+  STORAGE_DIR: /app/storage
+  LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+  OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+  LLM_MAIN_MODEL: ${LLM_MAIN_MODEL:-qwen3:8b}
+  LLM_FAST_MODEL: ${LLM_FAST_MODEL:-qwen3:4b}
+  LLM_CONTEXT_MAIN: ${LLM_CONTEXT_MAIN:-16384}
+  LLM_CONTEXT_FAST: ${LLM_CONTEXT_FAST:-8192}
+  EMBEDDER: ${EMBEDDER:-ollama}
+  EMBEDDING_MODEL: ${EMBEDDING_MODEL:-bge-m3}
+  RERANKER: ${RERANKER:-none}
+  WORKSPACE_TODAY: ${WORKSPACE_TODAY:-}
+  AUTH_ENABLED: ${AUTH_ENABLED:-false}
+  JWT_SECRET: ${JWT_SECRET:-change-me}
+  AUTH_USERS: ${AUTH_USERS:-admin:admin}
+  EMBEDDED_WORKER: "false"
+
+services:
+  db:
+    image: pgvector/pgvector:0.8.0-pg16
+    environment:
+      POSTGRES_USER: lw
+      POSTGRES_PASSWORD: lw
+      POSTGRES_DB: legal_workspace
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lw -d legal_workspace"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    command: ["lw-api"]
+    environment: *app-env
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    depends_on: { db: { condition: service_healthy } }
+    ports: ["8000:8000"]
+    volumes: [storage:/app/storage]
+
+  worker:
+    build: .
+    command: ["lw-worker"]
+    environment: *app-env
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    depends_on: { db: { condition: service_healthy } }
+    volumes: [storage:/app/storage]
+
+  ui:
+    build: ./ui
+    depends_on: [api]
+    ports: ["8080:80"]
+
+  ollama:
+    profiles: ["with-ollama"]
+    image: ollama/ollama:latest
+    ports: ["11434:11434"]
+    volumes: [ollama:/root/.ollama]
+    # GPU (NVIDIA): uncomment
+    # deploy: { resources: { reservations: { devices: [{ driver: nvidia, count: all, capabilities: [gpu] }] } } }
+
+volumes:
+  pgdata:
+  storage:
+  ollama:

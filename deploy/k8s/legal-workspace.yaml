@@ -1,0 +1,117 @@
+# Kubernetes outline (UNVERIFIED: written, not applied). Postgres is expected to be an external/managed instance with the
+# `vector` extension available (or CloudNativePG/pgvector image). Replace image names, hosts and secrets before use.
+# NOTE: api and worker share uploaded files through STORAGE_DIR, so the PVC must be ReadWriteMany (NFS/EFS/CephFS).
+apiVersion: v1
+kind: Namespace
+metadata: { name: legal-workspace }
+---
+apiVersion: v1
+kind: Secret
+metadata: { name: lw-secrets, namespace: legal-workspace }
+type: Opaque
+stringData:
+  DATABASE_URL: postgresql://lw:CHANGE_ME@postgres.example.internal:5432/legal_workspace
+  JWT_SECRET: CHANGE_ME_64_RANDOM_CHARS
+  AUTH_USERS: alice:CHANGE_ME:admin
+---
+apiVersion: v1
+kind: ConfigMap
+metadata: { name: lw-config, namespace: legal-workspace }
+data:
+  LLM_PROVIDER: openai_compat            # vLLM service below; use `ollama` for a single GPU node
+  OPENAI_BASE_URL: http://vllm.legal-workspace.svc:8000/v1
+  LLM_MAIN_MODEL: Qwen/Qwen3-8B
+  LLM_FAST_MODEL: Qwen/Qwen3-4B
+  EMBEDDER: ollama
+  AUTH_ENABLED: "true"
+  EMBEDDED_WORKER: "false"
+  LOG_JSON: "true"
+  STORAGE_DIR: /app/storage
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata: { name: lw-storage, namespace: legal-workspace }
+spec:
+  accessModes: [ReadWriteMany]
+  resources: { requests: { storage: 50Gi } }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: lw-api, namespace: legal-workspace }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: lw-api } }
+  template:
+    metadata:
+      labels: { app: lw-api }
+      annotations: { prometheus.io/scrape: "true", prometheus.io/path: /metrics, prometheus.io/port: "8000" }
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/pavan-kodati/rag-learning/api:REPLACE_SHA
+          command: ["lw-api"]
+          ports: [{ containerPort: 8000 }]
+          envFrom: [{ configMapRef: { name: lw-config } }, { secretRef: { name: lw-secrets } }]
+          volumeMounts: [{ name: storage, mountPath: /app/storage }]
+          readinessProbe: { httpGet: { path: /api/v1/healthz, port: 8000 }, periodSeconds: 10 }
+          livenessProbe: { httpGet: { path: /api/v1/healthz/live, port: 8000 }, periodSeconds: 15 }
+          resources: { requests: { cpu: 500m, memory: 1Gi }, limits: { memory: 2Gi } }
+      volumes: [{ name: storage, persistentVolumeClaim: { claimName: lw-storage } }]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: lw-worker, namespace: legal-workspace }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: lw-worker } }
+  template:
+    metadata: { labels: { app: lw-worker } }
+    spec:
+      containers:
+        - name: worker
+          image: ghcr.io/pavan-kodati/rag-learning/api:REPLACE_SHA
+          command: ["lw-worker"]
+          envFrom: [{ configMapRef: { name: lw-config } }, { secretRef: { name: lw-secrets } }]
+          volumeMounts: [{ name: storage, mountPath: /app/storage }]
+          resources: { requests: { cpu: "1", memory: 2Gi }, limits: { memory: 4Gi } }
+      volumes: [{ name: storage, persistentVolumeClaim: { claimName: lw-storage } }]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: lw-ui, namespace: legal-workspace }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: lw-ui } }
+  template:
+    metadata: { labels: { app: lw-ui } }
+    spec:
+      containers:
+        - name: ui
+          image: ghcr.io/pavan-kodati/rag-learning/ui:REPLACE_SHA
+          ports: [{ containerPort: 80 }]
+---
+apiVersion: v1
+kind: Service
+metadata: { name: api, namespace: legal-workspace }
+spec: { selector: { app: lw-api }, ports: [{ port: 8000, targetPort: 8000 }] }
+---
+apiVersion: v1
+kind: Service
+metadata: { name: ui, namespace: legal-workspace }
+spec: { selector: { app: lw-ui }, ports: [{ port: 80, targetPort: 80 }] }
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: lw
+  namespace: legal-workspace
+  annotations: { nginx.ingress.kubernetes.io/proxy-body-size: 100m, nginx.ingress.kubernetes.io/proxy-read-timeout: "600" }
+spec:
+  ingressClassName: nginx
+  tls: [{ hosts: [legal.example.com], secretName: lw-tls }]
+  rules:
+    - host: legal.example.com
+      http:
+        paths:
+          - { path: /api, pathType: Prefix, backend: { service: { name: api, port: { number: 8000 } } } }
+          - { path: /, pathType: Prefix, backend: { service: { name: ui, port: { number: 80 } } } }

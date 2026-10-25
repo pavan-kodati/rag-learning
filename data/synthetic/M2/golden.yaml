@@ -1,0 +1,174 @@
+- id: M2-B1-Q01
+  batch: 1
+  question: What is the contract value under the Master Services Agreement?
+  expected_facts:
+  - contract/msa-2023/contract_value = 4800000
+  expected_text:
+  - 48,00,000
+  expected_citations:
+  - document: Master Services Agreement
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M2-B1-Q02
+  batch: 1
+  question: When was delivery due under the contract?
+  expected_facts:
+  - contract/msa-2023/delivery_date = 2024-06-30
+  expected_text:
+  - 30 Jun 2024
+  expected_citations:
+  - document: Master Services Agreement
+    page: 1
+  must_not_say:
+  - 15 Aug 2024
+  intent: ''
+  not_found: false
+- id: M2-B1-Q03
+  batch: 1
+  question: How much is unpaid on INV-014?
+  expected_facts:
+  - invoice/inv-014/amount_outstanding = 1840000
+  expected_text:
+  - 18,40,000
+  expected_citations:
+  - document: Plaint
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M2-B1-Q04
+  batch: 1
+  question: Was the legal notice of 5 February 2025 served on the defendant?
+  expected_facts:
+  - notice/2025-02-05-vardhan/received = true
+  expected_text:
+  - served
+  expected_citations:
+  - document: Plaint
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M2-B1-Q05
+  batch: 1
+  question: What relief does the plaintiff seek?
+  expected_facts: []
+  expected_text:
+  - Recovery
+  - 18,40,000
+  expected_citations:
+  - document: Plaint
+    page: 1
+  must_not_say: []
+  intent: CLAIMS
+  not_found: false
+- id: M2-B1-Q06
+  batch: 1
+  question: Who is the Defendant's lead counsel?
+  expected_facts: []
+  expected_text: []
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: true
+- id: M2-B1-Q07
+  batch: 1
+  question: What does the law say about liquidated damages and penalty clauses?
+  expected_facts: []
+  expected_text: []
+  expected_citations: []
+  must_not_say: []
+  intent: LEGAL_RESEARCH
+  not_found: false
+- id: M2-B1-Q08
+  batch: 1
+  question: Give me the chronology of the matter.
+  expected_facts: []
+  expected_text:
+  - 12 Jan 2023
+  - 5 Feb 2025
+  expected_citations: []
+  must_not_say: []
+  intent: CHRONOLOGY
+  not_found: false
+- id: M2-B2-Q09
+  batch: 2
+  question: What changed since the last batch?
+  expected_facts: []
+  expected_text:
+  - 31 Jul 2024
+  - 12,40,000
+  expected_citations: []
+  must_not_say: []
+  intent: WHAT_CHANGED
+  not_found: false
+- id: M2-B2-Q10
+  batch: 2
+  question: When is delivery due now?
+  expected_facts:
+  - contract/msa-2023/delivery_date = 2024-07-31
+  expected_text:
+  - 31 Jul 2024
+  expected_citations:
+  - document: Amendment No. 1
+    page: 1
+  must_not_say:
+  - due 30 Jun 2024
+  - 'Delivery / completion date (MSA-2023): 30 Jun 2024'
+  intent: ''
+  not_found: false
+- id: M2-B2-Q11
+  batch: 2
+  question: How much is still unpaid on INV-014?
+  expected_facts:
+  - invoice/inv-014/amount_outstanding = 1240000
+  expected_text:
+  - 12,40,000
+  expected_citations:
+  - document: Bank Statement
+    page: 1
+  must_not_say:
+  - 'Outstanding on INV-014: ₹18,40,000'
+  - 'Amount outstanding (INV-014): ₹18,40,000'
+  intent: ''
+  not_found: false
+- id: M2-B2-Q12
+  batch: 2
+  question: Was the legal notice received by the defendant?
+  expected_facts: []
+  expected_text:
+  - not received
+  expected_citations:
+  - document: Written Statement
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M2-B2-Q13
+  batch: 2
+  question: What has the court directed and by when?
+  expected_facts: []
+  expected_text:
+  - 10 Oct 2025
+  - 24 Oct 2025
+  expected_citations:
+  - document: Order dated 12 September 2025
+    page: 1
+  must_not_say: []
+  intent: DIRECTIONS
+  not_found: false
+- id: M2-B2-Q14
+  batch: 2
+  question: What is the next hearing date?
+  expected_facts:
+  - hearing/2025-09-12/next_date = 2025-11-14
+  expected_text:
+  - 14 Nov 2025
+  expected_citations:
+  - document: Order dated 12 September 2025
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false

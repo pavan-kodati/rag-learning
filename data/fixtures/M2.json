@@ -1,0 +1,1850 @@
+{
+ "classify": {
+  "838e0e040f1676b02e8c71f122cc51d588f576962e82689e903fb64b79fd089a": {
+   "document_type": "CONTRACT",
+   "title": "Master Services Agreement",
+   "document_date": "12 January 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Vardhan Infotech Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Kestrel Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:01_Master_Services_Agreement.pdf": {
+   "document_type": "CONTRACT",
+   "title": "Master Services Agreement",
+   "document_date": "12 January 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Vardhan Infotech Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Kestrel Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "6c2b8f0411f0796383ae4d0ff255b3755e8e1890c81bbee3f724c17de89e550a": {
+   "document_type": "EMAIL",
+   "title": "Go-live date (e-mail thread)",
+   "document_date": "28 April 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:02_Email_thread_go_live_date.pdf": {
+   "document_type": "EMAIL",
+   "title": "Go-live date (e-mail thread)",
+   "document_date": "28 April 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "6942905dc756af049175fcd7f56b33c94089f5dcb741ec3dee572e9428515c54": {
+   "document_type": "INVOICE",
+   "title": "Tax Invoice INV-014",
+   "document_date": "15 September 2024",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:03_Invoice_INV-014.pdf": {
+   "document_type": "INVOICE",
+   "title": "Tax Invoice INV-014",
+   "document_date": "15 September 2024",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "992e5fe693ed31baea431f2494baf3ef4251dcfa196f7798dfece63b604ca07f": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Legal Notice",
+   "document_date": "5 February 2025",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:04_Legal_Notice_5_Feb_2025.pdf": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Legal Notice",
+   "document_date": "5 February 2025",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "4ebfe2167309f0400689f998ee946969b135c871273042e1b29c0ac66e5a3347": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "3 March 2025",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:05_Plaint.pdf": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "3 March 2025",
+   "author": "Vardhan Infotech Private Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "7941f7c5ec413ebcfe7f1bf7527422fd223db4ef507a0b69fc0090ac2bc6a461": {
+   "document_type": "AMENDMENT",
+   "title": "Amendment No. 1 to Master Services Agreement",
+   "document_date": "10 May 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Vardhan Infotech Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Kestrel Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "the Master Services Agreement dated 12 January 2023",
+   "confidence": 0.95
+  },
+  "file:06_Amendment_No_1.pdf": {
+   "document_type": "AMENDMENT",
+   "title": "Amendment No. 1 to Master Services Agreement",
+   "document_date": "10 May 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Vardhan Infotech Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Kestrel Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "the Master Services Agreement dated 12 January 2023",
+   "confidence": 0.95
+  },
+  "c9ebe1e48c4c3b1ad0490d5528008d975c6c5305f6291e43281285f4ae8cfe1d": {
+   "document_type": "BANK_STATEMENT",
+   "title": "Bank Statement March 2025",
+   "document_date": "31 March 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:07_Bank_statement_March_2025.pdf": {
+   "document_type": "BANK_STATEMENT",
+   "title": "Bank Statement March 2025",
+   "document_date": "31 March 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "15167ea1e397bfe0afb847d2c1401295d2daa616588066ef9f7ec7bf3cbece24": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "2 June 2025",
+   "author": "Kestrel Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:08_Written_Statement.pdf": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "2 June 2025",
+   "author": "Kestrel Limited",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "513a6dc1cd3589b4edaa0c7d147113d0d3d9266a4c7137239cfca2051ab49220": {
+   "document_type": "ORDER",
+   "title": "Order dated 12 September 2025",
+   "document_date": "12 September 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:09_Order_12_September_2025.pdf": {
+   "document_type": "ORDER",
+   "title": "Order dated 12 September 2025",
+   "document_date": "12 September 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Vardhan Infotech Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Vardhan",
+      "the Supplier"
+     ]
+    },
+    {
+     "name": "Kestrel Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Kestrel",
+      "the Customer"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  }
+ },
+ "extract": {
+  "838e0e040f1676b02e8c71f122cc51d588f576962e82689e903fb64b79fd089a": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "effective_date",
+     "value": "12 January 2023",
+     "quote": "This Agreement is made on 12 January 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "contract_value",
+     "value": "Rs. 48,00,000",
+     "quote": "The total contract value is Rs. 48,00,000 exclusive of taxes",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "delivery_date",
+     "value": "30 June 2024",
+     "quote": "Completion of the Deliverables (the Go-Live Date) shall occur on or before 30 June 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "ld_rate",
+     "value": "0.5% of the contract value per week of delay",
+     "quote": "liquidated damages of 0.5% of the contract value per week of delay shall be payable",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "ld_cap",
+     "value": "10% of the contract value",
+     "quote": "capped at 10% of the contract value",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "payment_terms_days",
+     "value": "30 days",
+     "quote": "The Customer shall pay each invoice within 30 days of receipt",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "termination_notice_days",
+     "value": "60 days",
+     "quote": "Either party may terminate this Agreement by giving 60 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "A party in breach shall have 30 days from written notice to cure the breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "governing_law",
+     "value": "laws of India",
+     "quote": "This Agreement is governed by the laws of India",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "jurisdiction",
+     "value": "courts at New Delhi",
+     "quote": "The courts at New Delhi shall have exclusive jurisdiction",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:01_Master_Services_Agreement.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "effective_date",
+     "value": "12 January 2023",
+     "quote": "This Agreement is made on 12 January 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "contract_value",
+     "value": "Rs. 48,00,000",
+     "quote": "The total contract value is Rs. 48,00,000 exclusive of taxes",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "delivery_date",
+     "value": "30 June 2024",
+     "quote": "Completion of the Deliverables (the Go-Live Date) shall occur on or before 30 June 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "ld_rate",
+     "value": "0.5% of the contract value per week of delay",
+     "quote": "liquidated damages of 0.5% of the contract value per week of delay shall be payable",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "ld_cap",
+     "value": "10% of the contract value",
+     "quote": "capped at 10% of the contract value",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "payment_terms_days",
+     "value": "30 days",
+     "quote": "The Customer shall pay each invoice within 30 days of receipt",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "termination_notice_days",
+     "value": "60 days",
+     "quote": "Either party may terminate this Agreement by giving 60 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "A party in breach shall have 30 days from written notice to cure the breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "governing_law",
+     "value": "laws of India",
+     "quote": "This Agreement is governed by the laws of India",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Master Services Agreement",
+     "slot": "jurisdiction",
+     "value": "courts at New Delhi",
+     "quote": "The courts at New Delhi shall have exclusive jurisdiction",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "6c2b8f0411f0796383ae4d0ff255b3755e8e1890c81bbee3f724c17de89e550a": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "15 August 2024",
+     "quote": "We propose to move the go-live to 15 August 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "We can go live on 31 July 2024 if the amendment is signed this month",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:02_Email_thread_go_live_date.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "15 August 2024",
+     "quote": "We propose to move the go-live to 15 August 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "We can go live on 31 July 2024 if the amendment is signed this month",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "6942905dc756af049175fcd7f56b33c94089f5dcb741ec3dee572e9428515c54": {
+   "items": [
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "Invoice amount: Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_date",
+     "value": "15 September 2024",
+     "quote": "Invoice date: 15 September 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "due_date",
+     "value": "15 October 2024",
+     "quote": "Payment due date: 15 October 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:03_Invoice_INV-014.pdf": {
+   "items": [
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "Invoice amount: Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_date",
+     "value": "15 September 2024",
+     "quote": "Invoice date: 15 September 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "due_date",
+     "value": "15 October 2024",
+     "quote": "Payment due date: 15 October 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "992e5fe693ed31baea431f2494baf3ef4251dcfa196f7798dfece63b604ca07f": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "5 February 2025",
+     "quote": "Dated: 5 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "speed post and e-mail",
+     "quote": "Sent by speed post and e-mail",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "demand_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "You are called upon to pay Rs. 18,40,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "principal",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "You are called upon to pay Rs. 18,40,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "My client raised invoice INV-014 dated 15 September 2024 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "You have failed to pay invoice INV-014 despite repeated reminders",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:04_Legal_Notice_5_Feb_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "5 February 2025",
+     "quote": "Dated: 5 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "speed post and e-mail",
+     "quote": "Sent by speed post and e-mail",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "demand_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "You are called upon to pay Rs. 18,40,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "principal",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "You are called upon to pay Rs. 18,40,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "My client raised invoice INV-014 dated 15 September 2024 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "You have failed to pay invoice INV-014 despite repeated reminders",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "4ebfe2167309f0400689f998ee946969b135c871273042e1b29c0ac66e5a3347": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "contract_value",
+     "value": "Rs. 48,00,000",
+     "quote": "for a contract value of Rs. 48,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "30 June 2024",
+     "quote": "the Deliverables were to be completed on or before 30 June 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 (go-live) under the MSA",
+     "slot": "acceptance_date",
+     "value": "12 July 2024",
+     "quote": "the platform went live on 12 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "the Plaintiff raised invoice INV-014 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_date",
+     "value": "15 September 2024",
+     "quote": "On 15 September 2024 the Plaintiff raised invoice INV-014",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "amount_outstanding",
+     "value": "Rs. 18,40,000",
+     "quote": "The sum of Rs. 18,40,000 remains due and unpaid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The Defendant has not paid invoice INV-014",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "received",
+     "value": "true",
+     "quote": "the Plaintiff served a legal notice on the Defendant by speed post and e-mail",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "sent_date",
+     "value": "5 February 2025",
+     "quote": "On 5 February 2025 the Plaintiff served a legal notice",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "interest",
+     "slot": "interest_rate",
+     "value": "12% per annum",
+     "quote": "entitled to interest at 12% per annum under clause 3.2 of the MSA",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "principal",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "costs",
+     "slot": "sought",
+     "value": "true",
+     "quote": "costs of the suit",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:05_Plaint.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "contract_value",
+     "value": "Rs. 48,00,000",
+     "quote": "for a contract value of Rs. 48,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "30 June 2024",
+     "quote": "the Deliverables were to be completed on or before 30 June 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 (go-live) under the MSA",
+     "slot": "acceptance_date",
+     "value": "12 July 2024",
+     "quote": "the platform went live on 12 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "the Plaintiff raised invoice INV-014 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_date",
+     "value": "15 September 2024",
+     "quote": "On 15 September 2024 the Plaintiff raised invoice INV-014",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "amount_outstanding",
+     "value": "Rs. 18,40,000",
+     "quote": "The sum of Rs. 18,40,000 remains due and unpaid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The Defendant has not paid invoice INV-014",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "received",
+     "value": "true",
+     "quote": "the Plaintiff served a legal notice on the Defendant by speed post and e-mail",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "sent_date",
+     "value": "5 February 2025",
+     "quote": "On 5 February 2025 the Plaintiff served a legal notice",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "interest",
+     "slot": "interest_rate",
+     "value": "12% per annum",
+     "quote": "entitled to interest at 12% per annum under clause 3.2 of the MSA",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "principal",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "amount",
+     "value": "Rs. 18,40,000",
+     "quote": "a decree for Rs. 18,40,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "costs",
+     "slot": "sought",
+     "value": "true",
+     "quote": "costs of the suit",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "7941f7c5ec413ebcfe7f1bf7527422fd223db4ef507a0b69fc0090ac2bc6a461": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "The Go-Live Date shall be 31 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:06_Amendment_No_1.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "The Go-Live Date shall be 31 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "c9ebe1e48c4c3b1ad0490d5528008d975c6c5305f6291e43281285f4ae8cfe1d": {
+   "items": [
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "amount",
+     "value": "6,00,000.00",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "date",
+     "value": "14 Mar 2025",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "against_invoice",
+     "value": "INV-014",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:07_Bank_statement_March_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "amount",
+     "value": "6,00,000.00",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "date",
+     "value": "14 Mar 2025",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "NEFT credit from Kestrel Limited",
+     "slot": "against_invoice",
+     "value": "INV-014",
+     "quote": "14 Mar 2025 NEFT credit from Kestrel Limited towards INV-014 part payment 6,00,000.00",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "15167ea1e397bfe0afb847d2c1401295d2daa616588066ef9f7ec7bf3cbece24": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "received",
+     "value": "false",
+     "quote": "It is denied that any legal notice dated 5 February 2025 was received by the Defendant",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "the Go-Live Date was extended to 31 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 (go-live) under the Master Services Agreement",
+     "slot": "acceptance_date",
+     "value": "12 July 2024",
+     "quote": "The platform went live on 12 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "denied",
+     "value": "true",
+     "quote": "There was no delay on the part of the Plaintiff",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "receipt of invoice INV-014 dated 15 September 2024 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "denied",
+     "value": "true",
+     "quote": "It is denied that the Defendant has not paid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "amount",
+     "value": "Rs. 6,00,000",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "date",
+     "value": "14 March 2025",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "against_invoice",
+     "value": "INV-014",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "deduction",
+     "value": "Rs. 3,00,000",
+     "quote": "entitled to withhold Rs. 3,00,000 on account of defects",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "defective_work",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "on account of defects in the delivered modules",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:08_Written_Statement.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "legal notice dated 5 February 2025",
+     "slot": "received",
+     "value": "false",
+     "quote": "It is denied that any legal notice dated 5 February 2025 was received by the Defendant",
+     "page": 1,
+     "subject_date": "5 February 2025",
+     "subject_party": "the Plaintiff",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Master Services Agreement dated 12 January 2023",
+     "slot": "delivery_date",
+     "value": "31 July 2024",
+     "quote": "the Go-Live Date was extended to 31 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 (go-live) under the Master Services Agreement",
+     "slot": "acceptance_date",
+     "value": "12 July 2024",
+     "quote": "The platform went live on 12 July 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "denied",
+     "value": "true",
+     "quote": "There was no delay on the part of the Plaintiff",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "invoice_amount",
+     "value": "Rs. 18,40,000",
+     "quote": "receipt of invoice INV-014 dated 15 September 2024 for Rs. 18,40,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "non_payment",
+     "slot": "denied",
+     "value": "true",
+     "quote": "It is denied that the Defendant has not paid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "amount",
+     "value": "Rs. 6,00,000",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "date",
+     "value": "14 March 2025",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "PAYMENT",
+     "subject_ref": "payment of 14 March 2025",
+     "slot": "against_invoice",
+     "value": "INV-014",
+     "quote": "The Defendant paid Rs. 6,00,000 on 14 March 2025 towards invoice INV-014",
+     "page": 1,
+     "subject_date": "14 March 2025",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "INVOICE",
+     "subject_ref": "INV-014",
+     "slot": "deduction",
+     "value": "Rs. 3,00,000",
+     "quote": "entitled to withhold Rs. 3,00,000 on account of defects",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "defective_work",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "on account of defects in the delivered modules",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "513a6dc1cd3589b4edaa0c7d147113d0d3d9266a4c7137239cfca2051ab49220": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "due_date",
+     "value": "within four weeks from today",
+     "quote": "The Plaintiff shall file a replication within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "responsible_party",
+     "value": "the Plaintiff",
+     "quote": "The Plaintiff shall file a replication within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "within six weeks from today",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within six weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within six weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "14 November 2025",
+     "quote": "The matter shall be listed on 14 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "purpose",
+     "value": "framing of issues",
+     "quote": "The matter shall be listed on 14 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:09_Order_12_September_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "due_date",
+     "value": "within four weeks from today",
+     "quote": "The Plaintiff shall file a replication within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "responsible_party",
+     "value": "the Plaintiff",
+     "quote": "The Plaintiff shall file a replication within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "within six weeks from today",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within six weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within six weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "14 November 2025",
+     "quote": "The matter shall be listed on 14 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "purpose",
+     "value": "framing of issues",
+     "quote": "The matter shall be listed on 14 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  }
+ }
+}

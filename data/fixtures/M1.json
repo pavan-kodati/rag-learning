@@ -1,0 +1,1346 @@
+{
+ "classify": {
+  "76ad7269113a6e8de6a4114f8d2de9572f7adcc582b52cf3d5a1777e56933a9f": {
+   "document_type": "SOW",
+   "title": "Statement of Work",
+   "document_date": "3 April 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Brightwave Systems Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Orion Retail Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:01_Statement_of_Work.pdf": {
+   "document_type": "SOW",
+   "title": "Statement of Work",
+   "document_date": "3 April 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Supplier",
+     "party": "Brightwave Systems Private Limited"
+    },
+    {
+     "term": "the Customer",
+     "party": "Orion Retail Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "275ec6d8308b767bef9befc7fe6553411f95f6e6a6c27ed2d47d370745be057d": {
+   "document_type": "CHANGE_REQUEST",
+   "title": "Change Request No. 1 to Statement of Work",
+   "document_date": "20 October 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": true,
+   "amends": "the Statement of Work dated 3 April 2023",
+   "confidence": 0.95
+  },
+  "file:02_Change_Request_No_1.pdf": {
+   "document_type": "CHANGE_REQUEST",
+   "title": "Change Request No. 1 to Statement of Work",
+   "document_date": "20 October 2023",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": true,
+   "amends": "the Statement of Work dated 3 April 2023",
+   "confidence": 0.95
+  },
+  "d623830b480158ed4a22e47ad6ad1d14b60906a5cac2d0dc5eed4cbbaad33922": {
+   "document_type": "EMAIL",
+   "title": "Status and go-live (e-mail thread)",
+   "document_date": "16 February 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:03_Emails_status_and_go_live.pdf": {
+   "document_type": "EMAIL",
+   "title": "Status and go-live (e-mail thread)",
+   "document_date": "16 February 2024",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "909e542d75399424c37aec353b5a26dc3e030fb5e304ab8b0e188adfda2fede3": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Legal Notice",
+   "document_date": "10 March 2024",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:04_Legal_Notice_LD.pdf": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Legal Notice",
+   "document_date": "10 March 2024",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "6351e52e767d3a42217152bff9e91ac95e9fac607251b63143746f4be3a68703": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "10 April 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:05_Plaint.pdf": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "10 April 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "0ff00cd2cdf791954eea9620ff5712dd34d193cabc6df25a67d98635fae7f712": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "20 June 2025",
+   "author": "Brightwave Systems Private Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:06_Written_Statement.pdf": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "20 June 2025",
+   "author": "Brightwave Systems Private Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "6ea2836403834b0f35b6dc3e012dd2215e9f01f751a278878849218c46d00655": {
+   "document_type": "ORDER",
+   "title": "Order dated 15 July 2025",
+   "document_date": "15 July 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:07_Order_15_July_2025.pdf": {
+   "document_type": "ORDER",
+   "title": "Order dated 15 July 2025",
+   "document_date": "15 July 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "ec61af039025ef23f9e74a8d61df2bf5e8c5ce7296db009b81cb76e6ff7ae90a": {
+   "document_type": "REPLICATION",
+   "title": "Replication",
+   "document_date": "25 July 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:08_Replication.pdf": {
+   "document_type": "REPLICATION",
+   "title": "Replication",
+   "document_date": "25 July 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "defaa1a8fc990b2d7fb8f12ccac9838e67398ee32a9844d25e68d97519a9cd29": {
+   "document_type": "AMENDED_PLEADING",
+   "title": "Amended Plaint",
+   "document_date": "5 September 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:09_Amended_Plaint.pdf": {
+   "document_type": "AMENDED_PLEADING",
+   "title": "Amended Plaint",
+   "document_date": "5 September 2025",
+   "author": "Orion Retail Limited",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "d874df8e19e388b9f768f516beb38e97daa789887309d57f2890cc7356a86660": {
+   "document_type": "ORDER",
+   "title": "Order dated 10 September 2025",
+   "document_date": "10 September 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:10_Order_10_September_2025.pdf": {
+   "document_type": "ORDER",
+   "title": "Order dated 10 September 2025",
+   "document_date": "10 September 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Orion Retail Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Orion",
+      "the Customer"
+     ]
+    },
+    {
+     "name": "Brightwave Systems Private Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Brightwave",
+      "the Supplier"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  }
+ },
+ "extract": {
+  "76ad7269113a6e8de6a4114f8d2de9572f7adcc582b52cf3d5a1777e56933a9f": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "effective_date",
+     "value": "3 April 2023",
+     "quote": "This Statement of Work is made on 3 April 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "contract_value",
+     "value": "Rs. 2,10,00,000",
+     "quote": "The total fees are Rs. 2,10,00,000 exclusive of taxes",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "due_date",
+     "value": "15 December 2023",
+     "quote": "Milestone 1 (go-live of the System) is due on 15 December 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "ld_rate",
+     "value": "1% of the fees per week of delay",
+     "quote": "liquidated damages of 1% of the fees",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "ld_cap",
+     "value": "10% of the fees",
+     "quote": "capped at 10% of the fees",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "governing_law",
+     "value": "laws of India",
+     "quote": "This Statement of Work is governed by the laws of India",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "jurisdiction",
+     "value": "courts at Delhi",
+     "quote": "the courts at Delhi have exclusive jurisdiction",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:01_Statement_of_Work.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "effective_date",
+     "value": "3 April 2023",
+     "quote": "This Statement of Work is made on 3 April 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "contract_value",
+     "value": "Rs. 2,10,00,000",
+     "quote": "The total fees are Rs. 2,10,00,000 exclusive of taxes",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "due_date",
+     "value": "15 December 2023",
+     "quote": "Milestone 1 (go-live of the System) is due on 15 December 2023",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "ld_rate",
+     "value": "1% of the fees per week of delay",
+     "quote": "liquidated damages of 1% of the fees",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "ld_cap",
+     "value": "10% of the fees",
+     "quote": "capped at 10% of the fees",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "governing_law",
+     "value": "laws of India",
+     "quote": "This Statement of Work is governed by the laws of India",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Statement of Work",
+     "slot": "jurisdiction",
+     "value": "courts at Delhi",
+     "quote": "the courts at Delhi have exclusive jurisdiction",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "275ec6d8308b767bef9befc7fe6553411f95f6e6a6c27ed2d47d370745be057d": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "due_date",
+     "value": "31 January 2024",
+     "quote": "changed from 15 December 2023 to 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:02_Change_Request_No_1.pdf": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "due_date",
+     "value": "31 January 2024",
+     "quote": "changed from 15 December 2023 to 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "d623830b480158ed4a22e47ad6ad1d14b60906a5cac2d0dc5eed4cbbaad33922": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "acceptance_date",
+     "value": "15 February 2024",
+     "quote": "Milestone 1 under the Statement of Work was accepted on 15 February 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:03_Emails_status_and_go_live.pdf": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the Statement of Work",
+     "slot": "acceptance_date",
+     "value": "15 February 2024",
+     "quote": "Milestone 1 under the Statement of Work was accepted on 15 February 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "909e542d75399424c37aec353b5a26dc3e030fb5e304ab8b0e188adfda2fede3": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "10 March 2024",
+     "quote": "Dated: 10 March 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "speed post and e-mail",
+     "quote": "Sent by speed post and e-mail",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "demand_amount",
+     "value": "Rs. 16,80,000",
+     "quote": "You are called upon to pay Rs. 16,80,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:04_Legal_Notice_LD.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "10 March 2024",
+     "quote": "Dated: 10 March 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "speed post and e-mail",
+     "quote": "Sent by speed post and e-mail",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "demand_amount",
+     "value": "Rs. 16,80,000",
+     "quote": "You are called upon to pay Rs. 16,80,000 within 15 days of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "6351e52e767d3a42217152bff9e91ac95e9fac607251b63143746f4be3a68703": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the SOW",
+     "slot": "contract_value",
+     "value": "Rs. 2,10,00,000",
+     "quote": "for fees of Rs. 2,10,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "due_date",
+     "value": "31 January 2024",
+     "quote": "the due date of Milestone 1 under the SOW was changed to 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "acceptance_date",
+     "value": "28 March 2024",
+     "quote": "The Plaintiff accepted Milestone 1 only on 28 March 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 16,80,000",
+     "quote": "entitled to liquidated damages of Rs. 16,80,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a decree for Rs. 16,80,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "amount",
+     "value": "Rs. 16,80,000",
+     "quote": "a decree for Rs. 16,80,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The Defendant failed to deliver by that date",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:05_Plaint.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the SOW",
+     "slot": "contract_value",
+     "value": "Rs. 2,10,00,000",
+     "quote": "for fees of Rs. 2,10,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "due_date",
+     "value": "31 January 2024",
+     "quote": "the due date of Milestone 1 under the SOW was changed to 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "acceptance_date",
+     "value": "28 March 2024",
+     "quote": "The Plaintiff accepted Milestone 1 only on 28 March 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 16,80,000",
+     "quote": "entitled to liquidated damages of Rs. 16,80,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a decree for Rs. 16,80,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "recovery",
+     "slot": "amount",
+     "value": "Rs. 16,80,000",
+     "quote": "a decree for Rs. 16,80,000 against the Defendant",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The Defendant failed to deliver by that date",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "0ff00cd2cdf791954eea9620ff5712dd34d193cabc6df25a67d98635fae7f712": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "acceptance_date",
+     "value": "15 February 2024",
+     "quote": "Milestone 1 under the SOW was accepted on 15 February 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "denied",
+     "value": "true",
+     "quote": "There was no delay beyond the extended due date of 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:06_Written_Statement.pdf": {
+   "items": [
+    {
+     "subject_type": "MILESTONE",
+     "subject_ref": "Milestone 1 under the SOW",
+     "slot": "acceptance_date",
+     "value": "15 February 2024",
+     "quote": "Milestone 1 under the SOW was accepted on 15 February 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "delay",
+     "slot": "denied",
+     "value": "true",
+     "quote": "There was no delay beyond the extended due date of 31 January 2024",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "6ea2836403834b0f35b6dc3e012dd2215e9f01f751a278878849218c46d00655": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "due_date",
+     "value": "within three weeks from today",
+     "quote": "The Plaintiff shall file a replication within three weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "responsible_party",
+     "value": "the Plaintiff",
+     "quote": "The Plaintiff shall file a replication within three weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "within four weeks from today",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "10 September 2025",
+     "quote": "The matter shall be listed on 10 September 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:07_Order_15_July_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "due_date",
+     "value": "within three weeks from today",
+     "quote": "The Plaintiff shall file a replication within three weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "replication",
+     "slot": "responsible_party",
+     "value": "the Plaintiff",
+     "quote": "The Plaintiff shall file a replication within three weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "within four weeks from today",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file an affidavit of admission and denial of documents within four weeks from today",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "10 September 2025",
+     "quote": "The matter shall be listed on 10 September 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "ec61af039025ef23f9e74a8d61df2bf5e8c5ce7296db009b81cb76e6ff7ae90a": {
+   "items": [
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 18,90,000",
+     "quote": "the liquidated damages claimable are Rs. 18,90,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:08_Replication.pdf": {
+   "items": [
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 18,90,000",
+     "quote": "the liquidated damages claimable are Rs. 18,90,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "defaa1a8fc990b2d7fb8f12ccac9838e67398ee32a9844d25e68d97519a9cd29": {
+   "items": [
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 21,00,000",
+     "quote": "The liquidated damages claimed are Rs. 21,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:09_Amended_Plaint.pdf": {
+   "items": [
+    {
+     "subject_type": "CLAIM",
+     "subject_ref": "damages",
+     "slot": "amount",
+     "value": "Rs. 21,00,000",
+     "quote": "The liquidated damages claimed are Rs. 21,00,000",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "d874df8e19e388b9f768f516beb38e97daa789887309d57f2890cc7356a86660": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "30 September 2025",
+     "quote": "is extended to 30 September 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The time for the Defendant to file the affidavit of admission and denial of documents is extended",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "12 November 2025",
+     "quote": "The matter shall be listed on 12 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:10_Order_10_September_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "due_date",
+     "value": "30 September 2025",
+     "quote": "is extended to 30 September 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "admission_denial_of_documents",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The time for the Defendant to file the affidavit of admission and denial of documents is extended",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "12 November 2025",
+     "quote": "The matter shall be listed on 12 November 2025 for framing of issues",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,84 @@
+- id: M4-B1-Q01
+  batch: 1
+  question: What is the transport rate under the contract?
+  expected_facts: []
+  expected_text:
+  - '42'
+  expected_citations:
+  - document: Logistics Services Contract
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M4-B1-Q02
+  batch: 1
+  question: When is invoice OL/2024/0087 due?
+  expected_facts: []
+  expected_text:
+  - 14 Apr 2025
+  expected_citations:
+  - document: Invoice
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M4-B1-Q03
+  batch: 1
+  question: How much does Pinnacle dispute and why?
+  expected_facts: []
+  expected_text:
+  - 1,20,000
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M4-B1-Q04
+  batch: 1
+  question: Who represents Pinnacle?
+  expected_facts: []
+  expected_text: []
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: true
+- id: M4-B2-Q05
+  batch: 2
+  question: How much is still unpaid on invoice OL/2024/0087?
+  expected_facts: []
+  expected_text:
+  - 1,20,000
+  expected_citations: []
+  must_not_say:
+  - 'Outstanding on OL/2024/0087: ₹9,36,000'
+  intent: ''
+  not_found: false
+- id: M4-B2-Q06
+  batch: 2
+  question: What changed since the last batch?
+  expected_facts: []
+  expected_text:
+  - 8,16,000
+  expected_citations: []
+  must_not_say: []
+  intent: WHAT_CHANGED
+  not_found: false
+- id: M4-B2-Q07
+  batch: 2
+  question: What has the court directed and by when?
+  expected_facts: []
+  expected_text:
+  - 17 Oct 2025
+  expected_citations: []
+  must_not_say: []
+  intent: DIRECTIONS
+  not_found: false
+- id: M4-B2-Q08
+  batch: 2
+  question: What is the next hearing date?
+  expected_facts: []
+  expected_text:
+  - 12 Dec 2025
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: false

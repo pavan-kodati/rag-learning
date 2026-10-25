@@ -1,0 +1,58 @@
+# Single-VM production overlay.   docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d --build
+# Images come from the CI 'images' job (ghcr.io); IMAGE_TAG selects the commit. Adds: TLS reverse proxy (Caddy), no public DB port, restart policies, secrets from env, resource limits, worker scale-out.
+# UNVERIFIED in the build sandbox (no Docker daemon there): review before first use.
+x-restart: &restart
+  restart: unless-stopped
+
+services:
+  db:
+    <<: *restart
+    ports: !reset []
+    environment:
+      POSTGRES_USER: lw
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in deploy/.env.prod}
+      POSTGRES_DB: legal_workspace
+    command: ["postgres", "-c", "shared_buffers=512MB", "-c", "max_connections=100"]
+
+  api:
+    <<: *restart
+    image: ghcr.io/pavan-kodati/rag-learning/api:${IMAGE_TAG:?set IMAGE_TAG to a commit SHA built by CI}
+    ports: !reset []
+    environment:
+      DATABASE_URL: postgresql://lw:${POSTGRES_PASSWORD}@db:5432/legal_workspace
+      AUTH_ENABLED: "true"
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET}
+      AUTH_USERS: ${AUTH_USERS:?set AUTH_USERS, e.g. alice:strong-pw:admin}
+      LOG_JSON: "true"
+      CORS_ORIGINS: https://${PUBLIC_HOST:?set PUBLIC_HOST}
+    deploy:
+      resources: { limits: { memory: 2g } }
+
+  worker:
+    <<: *restart
+    image: ghcr.io/pavan-kodati/rag-learning/api:${IMAGE_TAG:?set IMAGE_TAG to a commit SHA built by CI}
+    environment:
+      DATABASE_URL: postgresql://lw:${POSTGRES_PASSWORD}@db:5432/legal_workspace
+      LOG_JSON: "true"
+    deploy:
+      replicas: ${WORKER_REPLICAS:-1}
+      resources: { limits: { memory: 4g } }
+
+  ui:
+    <<: *restart
+    image: ghcr.io/pavan-kodati/rag-learning/ui:${IMAGE_TAG:?set IMAGE_TAG to a commit SHA built by CI}
+    ports: !reset []
+
+  proxy:
+    <<: *restart
+    image: caddy:2-alpine
+    ports: ["80:80", "443:443"]
+    environment:
+      PUBLIC_HOST: ${PUBLIC_HOST}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on: [api, ui]
+
+volumes:
+  caddy_data:

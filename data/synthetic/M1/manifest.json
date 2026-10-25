@@ -1,0 +1,86 @@
+{
+  "id": "M1",
+  "number": "CS(COMM) 188/2025",
+  "title": "Orion Retail Limited v Brightwave Systems Private Limited",
+  "type": "BREACH",
+  "forum": "High Court of Delhi, Commercial Division",
+  "description": "Delayed warehouse-automation go-live; a signed change request moves the milestone; the sides plead different acceptance dates; the claim is revised.",
+  "batches": {
+    "1": [
+      {
+        "file": "01_Statement_of_Work.pdf",
+        "path": "batch1/01_Statement_of_Work.pdf",
+        "document_type": "SOW",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "02_Change_Request_No_1.pdf",
+        "path": "batch1/02_Change_Request_No_1.pdf",
+        "document_type": "CHANGE_REQUEST",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "03_Emails_status_and_go_live.pdf",
+        "path": "batch1/03_Emails_status_and_go_live.pdf",
+        "document_type": "EMAIL",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "04_Legal_Notice_LD.pdf",
+        "path": "batch1/04_Legal_Notice_LD.pdf",
+        "document_type": "LEGAL_NOTICE",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ],
+    "2": [
+      {
+        "file": "05_Plaint.pdf",
+        "path": "batch2/05_Plaint.pdf",
+        "document_type": "PLAINT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "06_Written_Statement.pdf",
+        "path": "batch2/06_Written_Statement.pdf",
+        "document_type": "WRITTEN_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "07_Order_15_July_2025.pdf",
+        "path": "batch2/07_Order_15_July_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ],
+    "3": [
+      {
+        "file": "08_Replication.pdf",
+        "path": "batch3/08_Replication.pdf",
+        "document_type": "REPLICATION",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "09_Amended_Plaint.pdf",
+        "path": "batch3/09_Amended_Plaint.pdf",
+        "document_type": "AMENDED_PLEADING",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "10_Order_10_September_2025.pdf",
+        "path": "batch3/10_Order_10_September_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ]
+  }
+}

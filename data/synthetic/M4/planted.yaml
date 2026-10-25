@@ -1,0 +1,4 @@
+- batch: 2
+  change_type: NARROWED
+  rule_id: R5
+  fact_key: invoice/ol-2024-0087/amount_outstanding

@@ -1,0 +1,153 @@
+- id: M1-B1-Q01
+  batch: 1
+  question: What is the contract value under the Statement of Work?
+  expected_facts:
+  - contract/sow-2023/contract_value = 21000000
+  expected_text:
+  - 2,10,00,000
+  expected_citations:
+  - document: Statement of Work
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M1-B1-Q02
+  batch: 1
+  question: When is Milestone 1 due?
+  expected_facts:
+  - milestone/sow-2023-m1/due_date = 2024-01-31
+  expected_text:
+  - 31 Jan 2024
+  expected_citations:
+  - document: Change Request
+    page: 1
+  must_not_say:
+  - due 15 Dec 2023
+  intent: ''
+  not_found: false
+- id: M1-B1-Q03
+  batch: 1
+  question: What are the liquidated damages for delay?
+  expected_facts:
+  - contract/sow-2023/ld_rate = 1% of the fees per week of delay
+  expected_text:
+  - 1% of the fees
+  expected_citations:
+  - document: Statement of Work
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M1-B1-Q04
+  batch: 1
+  question: When was Milestone 1 accepted?
+  expected_facts:
+  - milestone/sow-2023-m1/acceptance_date = 2024-02-15
+  expected_text:
+  - 15 Feb 2024
+  expected_citations:
+  - document: e-mail thread
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M1-B1-Q05
+  batch: 1
+  question: Who is the Plaintiff's advocate?
+  expected_facts: []
+  expected_text: []
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: true
+- id: M1-B2-Q06
+  batch: 2
+  question: When was Milestone 1 accepted?
+  expected_facts: []
+  expected_text:
+  - 28 Mar 2024
+  - 15 Feb 2024
+  expected_citations:
+  - document: Plaint
+    page: 1
+  - document: Written Statement
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M1-B2-Q07
+  batch: 2
+  question: What changed since the last batch?
+  expected_facts: []
+  expected_text:
+  - 28 Mar 2024
+  expected_citations: []
+  must_not_say: []
+  intent: WHAT_CHANGED
+  not_found: false
+- id: M1-B2-Q08
+  batch: 2
+  question: What has the court directed and by when?
+  expected_facts: []
+  expected_text:
+  - 5 Aug 2025
+  - 12 Aug 2025
+  expected_citations:
+  - document: Order dated 15 July 2025
+    page: 1
+  must_not_say: []
+  intent: DIRECTIONS
+  not_found: false
+- id: M1-B2-Q09
+  batch: 2
+  question: What is the plaintiff's claim?
+  expected_facts:
+  - claim/damages/amount = 1680000
+  expected_text:
+  - 16,80,000
+  expected_citations:
+  - document: Plaint
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M1-B3-Q10
+  batch: 3
+  question: What is the plaintiff's current claim for liquidated damages?
+  expected_facts:
+  - claim/damages/amount = 2100000
+  expected_text:
+  - 21,00,000
+  expected_citations:
+  - document: Amended Plaint
+    page: 1
+  must_not_say:
+  - 'Claim for Damages: amount ₹16,80,000'
+  - 'Claim for Damages: amount ₹18,90,000'
+  intent: ''
+  not_found: false
+- id: M1-B3-Q11
+  batch: 3
+  question: What is the deadline for the affidavit of admission and denial of documents?
+  expected_facts:
+  - direction/admission-denial-of-documents/due_date = 2025-09-30
+  expected_text:
+  - 30 Sep 2025
+  expected_citations:
+  - document: Order dated 10 September 2025
+    page: 1
+  must_not_say:
+  - due 12 Aug 2025
+  intent: ''
+  not_found: false
+- id: M1-B3-Q12
+  batch: 3
+  question: What is the next hearing date?
+  expected_facts:
+  - hearing/2025-09-10/next_date = 2025-11-12
+  expected_text:
+  - 12 Nov 2025
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: false

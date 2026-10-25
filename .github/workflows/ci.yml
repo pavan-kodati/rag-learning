@@ -1,0 +1,62 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: pgvector/pgvector:0.8.0-pg16
+        env: { POSTGRES_USER: lw, POSTGRES_PASSWORD: lw, POSTGRES_DB: legal_workspace_test }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U lw" --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      TEST_DATABASE_URL: postgresql://lw:lw@localhost:5432/legal_workspace_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests
+      - run: ruff format --check src tests
+      - run: mypy src
+      - run: pytest --cov=legal_workspace --cov-report=term-missing
+
+  ui:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: ui } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: ui/package-lock.json }
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  images:
+    needs: [backend, ui]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions: { contents: read, packages: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with: { registry: ghcr.io, username: "${{ github.actor }}", password: "${{ secrets.GITHUB_TOKEN }}" }
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/${{ github.repository }}/api:${{ github.sha }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: ./ui
+          push: true
+          tags: ghcr.io/${{ github.repository }}/ui:${{ github.sha }}

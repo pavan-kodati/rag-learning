@@ -1,0 +1,12 @@
+- query: rate per km per truck
+  document: Logistics Services Contract
+  page: 1
+- query: interest on delayed payment
+  document: Logistics Services Contract
+  page: 1
+- query: damaged goods on two trips
+  document: Written Statement
+  page: 1
+- query: affidavit of documents within two weeks
+  document: Order dated 03/10/2025
+  page: 1

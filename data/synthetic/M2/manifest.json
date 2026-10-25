@@ -1,0 +1,84 @@
+{
+  "id": "M2",
+  "number": "CS(COMM) 412/2025",
+  "title": "Vardhan Infotech Private Limited v Kestrel Limited",
+  "type": "PAYMENT_RECOVERY",
+  "forum": "High Court of Delhi, Commercial Division",
+  "description": "Unpaid milestone invoice; delivery date moved by a signed amendment; part-payment; notice served vs never received.",
+  "batches": {
+    "1": [
+      {
+        "file": "01_Master_Services_Agreement.pdf",
+        "path": "batch1/01_Master_Services_Agreement.pdf",
+        "document_type": "CONTRACT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "02_Email_thread_go_live_date.pdf",
+        "path": "batch1/02_Email_thread_go_live_date.pdf",
+        "document_type": "EMAIL",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "03_Invoice_INV-014.pdf",
+        "path": "batch1/03_Invoice_INV-014.pdf",
+        "document_type": "INVOICE",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "04_Legal_Notice_5_Feb_2025.pdf",
+        "path": "batch1/04_Legal_Notice_5_Feb_2025.pdf",
+        "document_type": "LEGAL_NOTICE",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "05_Plaint.pdf",
+        "path": "batch1/05_Plaint.pdf",
+        "document_type": "PLAINT",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ],
+    "2": [
+      {
+        "file": "06_Amendment_No_1.pdf",
+        "path": "batch2/06_Amendment_No_1.pdf",
+        "document_type": "AMENDMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "07_Bank_statement_March_2025.pdf",
+        "path": "batch2/07_Bank_statement_March_2025.pdf",
+        "document_type": "BANK_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "07b_Bank_statement_duplicate.pdf",
+        "path": "batch2/07b_Bank_statement_duplicate.pdf",
+        "document_type": "BANK_STATEMENT",
+        "duplicate_of": "07_Bank_statement_March_2025.pdf",
+        "scanned": false
+      },
+      {
+        "file": "08_Written_Statement.pdf",
+        "path": "batch2/08_Written_Statement.pdf",
+        "document_type": "WRITTEN_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "09_Order_12_September_2025.pdf",
+        "path": "batch2/09_Order_12_September_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ]
+  }
+}

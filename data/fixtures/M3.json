@@ -1,0 +1,1542 @@
+{
+ "classify": {
+  "c5402ecbe08e522d758132d8863bc06c9631e70962e355ca24f294b3792aab97": {
+   "document_type": "CONTRACT",
+   "title": "Exclusive Distribution Agreement",
+   "document_date": "1 July 2022",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Principal",
+     "party": "Coastal Brands Limited"
+    },
+    {
+     "term": "the Distributor",
+     "party": "Sunrise Beverages Private Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:01_Exclusive_Distribution_Agreement.pdf": {
+   "document_type": "CONTRACT",
+   "title": "Exclusive Distribution Agreement",
+   "document_date": "1 July 2022",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [
+    {
+     "term": "the Principal",
+     "party": "Coastal Brands Limited"
+    },
+    {
+     "term": "the Distributor",
+     "party": "Sunrise Beverages Private Limited"
+    }
+   ],
+   "signed_by_all_parties": true,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "d53e9050671cdb15b4febafc89925f92c4c8b4d51e091548cd99451de17fbea7": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Notice of Breach",
+   "document_date": "2 February 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:02_Notice_of_Breach_2_Feb_2025.pdf": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Notice of Breach",
+   "document_date": "2 February 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "48db94c832039dd38e3e139f7763b0ba9dac7eb4e609c36b660ac14016030187": {
+   "document_type": "REPLY_NOTICE",
+   "title": "Reply to Notice of Breach",
+   "document_date": "20 February 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:03_Reply_to_Notice_20_Feb_2025.pdf": {
+   "document_type": "REPLY_NOTICE",
+   "title": "Reply to Notice of Breach",
+   "document_date": "20 February 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "0af35a19c4d32e1f2e187ccf3c138be254f5ff013f0b1b3672c07ce08b5d9d7e": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Notice of Termination",
+   "document_date": "10 March 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:04_Notice_of_Termination_scanned.pdf": {
+   "document_type": "LEGAL_NOTICE",
+   "title": "Notice of Termination",
+   "document_date": "10 March 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "OTHER",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "10f4d990152e9c6196cce3b3c500d770b61899b34f0b366990c0fd7e2157097c": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:05_Plaint.pdf": {
+   "document_type": "PLAINT",
+   "title": "Plaint",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "9d58dd0a9be4d388a447e0f387c385e6df9c0cbbdd80da827fdca2d72e585c59": {
+   "document_type": "APPLICATION",
+   "title": "Application under Order XXXIX Rules 1 and 2",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:06_Application_Order_39.pdf": {
+   "document_type": "APPLICATION",
+   "title": "Application under Order XXXIX Rules 1 and 2",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "f62000920595e0c09473482c4f517d66e46e9279ab8cd99da560e23f0a1da05c": {
+   "document_type": "AFFIDAVIT",
+   "title": "Affidavit of Mr R. Kapoor",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:07_Affidavit_of_R_Kapoor.pdf": {
+   "document_type": "AFFIDAVIT",
+   "title": "Affidavit of Mr R. Kapoor",
+   "document_date": "25 March 2025",
+   "author": "Sunrise Beverages Private Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "42a9cee09bab351965bafe06c548db76cc8b99683a84809065d1bc33cc7a7a73": {
+   "document_type": "ORDER",
+   "title": "Order dated 28 March 2025",
+   "document_date": "28 March 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:08_Order_28_March_2025.pdf": {
+   "document_type": "ORDER",
+   "title": "Order dated 28 March 2025",
+   "document_date": "28 March 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "d59d249bfbd925b1d14ba792434727fd736d375fa5d37a592946129791e8dabb": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "5 May 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:09_Written_Statement.pdf": {
+   "document_type": "WRITTEN_STATEMENT",
+   "title": "Written Statement",
+   "document_date": "5 May 2025",
+   "author": "Coastal Brands Limited",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "3c05dc75efeeb93d521d26bd7e11a423533e2467bdc70490922663d6387460ae": {
+   "document_type": "ORDER",
+   "title": "Order dated 12 May 2025",
+   "document_date": "12 May 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:10_Order_12_May_2025.pdf": {
+   "document_type": "ORDER",
+   "title": "Order dated 12 May 2025",
+   "document_date": "12 May 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "840c0a3e9ef2e6db52021480cfbabab43569f30203eec9b657192a168d000d71": {
+   "document_type": "HEARING_NOTE",
+   "title": "Hearing note, 12 May 2025",
+   "document_date": "12 May 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  },
+  "file:11_Hearing_note_12_May_2025.pdf": {
+   "document_type": "HEARING_NOTE",
+   "title": "Hearing note, 12 May 2025",
+   "document_date": "12 May 2025",
+   "author": "",
+   "parties": [
+    {
+     "name": "Sunrise Beverages Private Limited",
+     "role": "PLAINTIFF",
+     "aliases": [
+      "Sunrise",
+      "the Distributor"
+     ]
+    },
+    {
+     "name": "Coastal Brands Limited",
+     "role": "DEFENDANT",
+     "aliases": [
+      "Coastal",
+      "the Principal"
+     ]
+    }
+   ],
+   "defined_terms": [],
+   "signed_by_all_parties": false,
+   "amends": "",
+   "confidence": 0.95
+  }
+ },
+ "extract": {
+  "c5402ecbe08e522d758132d8863bc06c9631e70962e355ca24f294b3792aab97": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "effective_date",
+     "value": "1 July 2022",
+     "quote": "This Agreement is made on 1 July 2022",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "scope",
+     "value": "exclusive distributor for the State of Rajasthan",
+     "quote": "exclusive distributor for the State of Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "termination_for_convenience",
+     "value": "true",
+     "quote": "Either party may terminate this Agreement for convenience by giving 90 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "termination_notice_days",
+     "value": "90 days",
+     "quote": "for convenience by giving 90 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "A party in breach shall have 30 days from receipt of written notice to cure the breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "arbitration_clause",
+     "value": "true",
+     "quote": "Any dispute shall be referred to arbitration seated at Delhi",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "jurisdiction",
+     "value": "arbitration seated at Delhi; courts at Delhi for interim relief",
+     "quote": "arbitration seated at Delhi",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:01_Exclusive_Distribution_Agreement.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "effective_date",
+     "value": "1 July 2022",
+     "quote": "This Agreement is made on 1 July 2022",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "scope",
+     "value": "exclusive distributor for the State of Rajasthan",
+     "quote": "exclusive distributor for the State of Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "termination_for_convenience",
+     "value": "true",
+     "quote": "Either party may terminate this Agreement for convenience by giving 90 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "termination_notice_days",
+     "value": "90 days",
+     "quote": "for convenience by giving 90 days written notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "A party in breach shall have 30 days from receipt of written notice to cure the breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "arbitration_clause",
+     "value": "true",
+     "quote": "Any dispute shall be referred to arbitration seated at Delhi",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "Exclusive Distribution Agreement",
+     "slot": "jurisdiction",
+     "value": "arbitration seated at Delhi; courts at Delhi for interim relief",
+     "quote": "arbitration seated at Delhi",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "d53e9050671cdb15b4febafc89925f92c4c8b4d51e091548cd99451de17fbea7": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "2 February 2025",
+     "quote": "Dated: 2 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "received_date",
+     "value": "3 February 2025",
+     "quote": "Delivered by courier on 3 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "courier",
+     "quote": "Delivered by courier on 3 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "cure_demanded",
+     "value": "cure the breach within 30 days of receipt of this notice",
+     "quote": "You are called upon to cure the breach within 30 days of receipt of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "minimum purchase shortfall",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "You purchased only 31,000 cases in the quarter ended 31 December 2024 against the minimum of 50,000 cases",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:02_Notice_of_Breach_2_Feb_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "2 February 2025",
+     "quote": "Dated: 2 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "received_date",
+     "value": "3 February 2025",
+     "quote": "Delivered by courier on 3 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "courier",
+     "quote": "Delivered by courier on 3 February 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "cure_demanded",
+     "value": "cure the breach within 30 days of receipt of this notice",
+     "quote": "You are called upon to cure the breach within 30 days of receipt of this notice",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "minimum purchase shortfall",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "You purchased only 31,000 cases in the quarter ended 31 December 2024 against the minimum of 50,000 cases",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "48db94c832039dd38e3e139f7763b0ba9dac7eb4e609c36b660ac14016030187": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "received your notice dated 2 February 2025 only on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "Coastal Brands Limited",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "minimum purchase shortfall",
+     "slot": "denied",
+     "value": "true",
+     "quote": "The alleged breach is denied",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:03_Reply_to_Notice_20_Feb_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "received your notice dated 2 February 2025 only on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "Coastal Brands Limited",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "minimum purchase shortfall",
+     "slot": "denied",
+     "value": "true",
+     "quote": "The alleged breach is denied",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "0af35a19c4d32e1f2e187ccf3c138be254f5ff013f0b1b3672c07ce08b5d9d7e": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "10 March 2025",
+     "quote": "Dated: 10 March 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "courier",
+     "quote": "Sent by courier",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:04_Notice_of_Termination_scanned.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "sent_date",
+     "value": "10 March 2025",
+     "quote": "Dated: 10 March 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "this notice",
+     "slot": "mode_of_service",
+     "value": "courier",
+     "quote": "Sent by courier",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "10f4d990152e9c6196cce3b3c500d770b61899b34f0b366990c0fd7e2157097c": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Exclusive Distribution Agreement dated 1 July 2022",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "allowed 30 days to cure any breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "was received by the Plaintiff on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "wrongful_termination",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The termination is wrongful",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "declaration",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a declaration that the termination dated 10 March 2025 is invalid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "injunction",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a permanent injunction restraining the Defendant from appointing any other distributor in Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "costs",
+     "slot": "sought",
+     "value": "true",
+     "quote": "costs of the suit",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:05_Plaint.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Exclusive Distribution Agreement dated 1 July 2022",
+     "slot": "cure_period_days",
+     "value": "30 days",
+     "quote": "allowed 30 days to cure any breach",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "was received by the Plaintiff on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "wrongful_termination",
+     "slot": "asserted",
+     "value": "true",
+     "quote": "The termination is wrongful",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "declaration",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a declaration that the termination dated 10 March 2025 is invalid",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "injunction",
+     "slot": "sought",
+     "value": "true",
+     "quote": "a permanent injunction restraining the Defendant from appointing any other distributor in Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "costs",
+     "slot": "sought",
+     "value": "true",
+     "quote": "costs of the suit",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "9d58dd0a9be4d388a447e0f387c385e6df9c0cbbdd80da827fdca2d72e585c59": {
+   "items": [
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "injunction",
+     "slot": "sought",
+     "value": "true",
+     "quote": "an interim injunction restraining the Defendant from appointing any other distributor in Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:06_Application_Order_39.pdf": {
+   "items": [
+    {
+     "subject_type": "RELIEF",
+     "subject_ref": "injunction",
+     "slot": "sought",
+     "value": "true",
+     "quote": "an interim injunction restraining the Defendant from appointing any other distributor in Rajasthan",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "f62000920595e0c09473482c4f517d66e46e9279ab8cd99da560e23f0a1da05c": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "was received at our office on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:07_Affidavit_of_R_Kapoor.pdf": {
+   "items": [
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "10 February 2025",
+     "quote": "was received at our office on 10 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "42a9cee09bab351965bafe06c548db76cc8b99683a84809065d1bc33cc7a7a73": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "unspecified",
+     "quote": "The Defendant shall maintain status quo until the next date of hearing",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall maintain status quo until the next date of hearing",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "reply to the application",
+     "slot": "due_date",
+     "value": "within three weeks from receipt of a copy of this order",
+     "quote": "within three weeks from receipt of a copy of this order",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "reply to the application",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file its reply to the application within three weeks",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "30 April 2025",
+     "quote": "The matter shall be listed on 30 April 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:08_Order_28_March_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "unspecified",
+     "quote": "The Defendant shall maintain status quo until the next date of hearing",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall maintain status quo until the next date of hearing",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "reply to the application",
+     "slot": "due_date",
+     "value": "within three weeks from receipt of a copy of this order",
+     "quote": "within three weeks from receipt of a copy of this order",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "reply to the application",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The Defendant shall file its reply to the application within three weeks",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "DIRECTION"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "30 April 2025",
+     "quote": "The matter shall be listed on 30 April 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "d59d249bfbd925b1d14ba792434727fd736d375fa5d37a592946129791e8dabb": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Exclusive Distribution Agreement dated 1 July 2022",
+     "slot": "arbitration_clause",
+     "value": "true",
+     "quote": "Clause 3.1 of the agreement requires every dispute to be referred to arbitration",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "3 February 2025",
+     "quote": "It was delivered on 3 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "wrongful_termination",
+     "slot": "denied",
+     "value": "true",
+     "quote": "It is denied that the termination is wrongful",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:09_Written_Statement.pdf": {
+   "items": [
+    {
+     "subject_type": "CONTRACT",
+     "subject_ref": "the Exclusive Distribution Agreement dated 1 July 2022",
+     "slot": "arbitration_clause",
+     "value": "true",
+     "quote": "Clause 3.1 of the agreement requires every dispute to be referred to arbitration",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "NOTICE",
+     "subject_ref": "the notice of breach dated 2 February 2025",
+     "slot": "received_date",
+     "value": "3 February 2025",
+     "quote": "It was delivered on 3 February 2025",
+     "page": 1,
+     "subject_date": "2 February 2025",
+     "subject_party": "the Defendant",
+     "direction_kind": ""
+    },
+    {
+     "subject_type": "ALLEGATION",
+     "subject_ref": "wrongful_termination",
+     "slot": "denied",
+     "value": "true",
+     "quote": "It is denied that the termination is wrongful",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "3c05dc75efeeb93d521d26bd7e11a423533e2467bdc70490922663d6387460ae": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "15 December 2025",
+     "quote": "The interim order of status quo is extended until 15 December 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The interim order of status quo is extended until 15 December 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "12 November 2025",
+     "quote": "The matter shall be listed on 12 November 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:10_Order_12_May_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "15 December 2025",
+     "quote": "The interim order of status quo is extended until 15 December 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "responsible_party",
+     "value": "the Defendant",
+     "quote": "The interim order of status quo is extended until 15 December 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "12 November 2025",
+     "quote": "The matter shall be listed on 12 November 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "840c0a3e9ef2e6db52021480cfbabab43569f30203eec9b657192a168d000d71": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "30 June 2025",
+     "quote": "The court has extended the status quo only until 30 June 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "20 November 2025",
+     "quote": "The matter is to be listed on 20 November 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  },
+  "file:11_Hearing_note_12_May_2025.pdf": {
+   "items": [
+    {
+     "subject_type": "DIRECTION",
+     "subject_ref": "interim_relief",
+     "slot": "due_date",
+     "value": "30 June 2025",
+     "quote": "The court has extended the status quo only until 30 June 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": "INTERIM_RELIEF"
+    },
+    {
+     "subject_type": "HEARING",
+     "subject_ref": "next hearing",
+     "slot": "next_date",
+     "value": "20 November 2025",
+     "quote": "The matter is to be listed on 20 November 2025",
+     "page": 1,
+     "subject_date": "",
+     "subject_party": "",
+     "direction_kind": ""
+    }
+   ]
+  }
+ }
+}

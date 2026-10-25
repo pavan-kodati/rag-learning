@@ -1,0 +1,128 @@
+- id: M3-B1-Q01
+  batch: 1
+  question: What is the notice period for termination for convenience?
+  expected_facts:
+  - contract/eda-2022/termination_notice_days = 90
+  expected_text:
+  - 90 days
+  expected_citations:
+  - document: Exclusive Distribution Agreement
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M3-B1-Q02
+  batch: 1
+  question: How long is the cure period?
+  expected_facts:
+  - contract/eda-2022/cure_period_days = 30
+  expected_text:
+  - 30 days
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M3-B1-Q03
+  batch: 1
+  question: Is there an arbitration clause?
+  expected_facts:
+  - contract/eda-2022/arbitration_clause = true
+  expected_text: []
+  expected_citations:
+  - document: Exclusive Distribution Agreement
+    page: 1
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M3-B1-Q04
+  batch: 1
+  question: When was the notice of breach received?
+  expected_facts: []
+  expected_text:
+  - 3 Feb 2025
+  - 10 Feb 2025
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: false
+- id: M3-B1-Q05
+  batch: 1
+  question: What is the Distributor's annual turnover?
+  expected_facts: []
+  expected_text: []
+  expected_citations: []
+  must_not_say: []
+  intent: ''
+  not_found: true
+- id: M3-B2-Q06
+  batch: 2
+  question: What relief does the plaintiff seek?
+  expected_facts: []
+  expected_text:
+  - Declaration
+  - Injunction
+  expected_citations:
+  - document: Plaint
+    page: 1
+  must_not_say: []
+  intent: CLAIMS
+  not_found: false
+- id: M3-B2-Q07
+  batch: 2
+  question: What has the court directed?
+  expected_facts: []
+  expected_text:
+  - 30 Apr 2025
+  expected_citations:
+  - document: Order dated 28 March 2025
+    page: 1
+  must_not_say: []
+  intent: DIRECTIONS
+  not_found: false
+- id: M3-B2-Q08
+  batch: 2
+  question: What does the law say about interim injunctions and temporary injunction
+    tests?
+  expected_facts: []
+  expected_text:
+  - Order XXXIX
+  expected_citations: []
+  must_not_say: []
+  intent: LEGAL_RESEARCH
+  not_found: false
+- id: M3-B3-Q09
+  batch: 3
+  question: Until when does the status quo run?
+  expected_facts:
+  - direction/interim-relief/due_date = 2025-12-15
+  expected_text:
+  - 15 Dec 2025
+  expected_citations:
+  - document: Order dated 12 May 2025
+    page: 1
+  must_not_say:
+  - 30 Jun 2025
+  intent: ''
+  not_found: false
+- id: M3-B3-Q10
+  batch: 3
+  question: What is the next hearing date?
+  expected_facts:
+  - hearing/2025-05-12/next_date = 2025-11-12
+  expected_text:
+  - 12 Nov 2025
+  expected_citations: []
+  must_not_say:
+  - 20 Nov 2025
+  intent: ''
+  not_found: false
+- id: M3-B3-Q11
+  batch: 3
+  question: What changed since the last batch?
+  expected_facts: []
+  expected_text:
+  - 15 Dec 2025
+  expected_citations: []
+  must_not_say: []
+  intent: WHAT_CHANGED
+  not_found: false

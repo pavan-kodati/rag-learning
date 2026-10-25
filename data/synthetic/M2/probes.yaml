@@ -1,0 +1,24 @@
+- query: liquidated damages per week of delay
+  document: Master Services Agreement
+  page: 1
+- query: which courts have jurisdiction
+  document: Master Services Agreement
+  page: 1
+- query: interest on delayed payments
+  document: Master Services Agreement
+  page: 1
+- query: invoice INV-014 payment due date
+  document: Tax Invoice INV-014
+  page: 1
+- query: NEFT credit from Kestrel
+  document: Bank Statement
+  page: 1
+- query: defects in the delivered modules
+  document: Written Statement
+  page: 1
+- query: listed for framing of issues
+  document: Order dated 12 September 2025
+  page: 1
+- query: Go-Live Date substituted
+  document: Amendment No. 1
+  page: 1

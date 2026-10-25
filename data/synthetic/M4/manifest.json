@@ -1,0 +1,70 @@
+{
+  "id": "M4",
+  "number": "COMM SUIT 301/2025",
+  "title": "Orbit Logistics LLP v Pinnacle Foods Private Limited",
+  "type": "PAYMENT_RECOVERY",
+  "forum": "High Court of Bombay",
+  "description": "Held-out style: a part-paid transport invoice written in different drafting conventions. Requires a real model.",
+  "batches": {
+    "1": [
+      {
+        "file": "01_Logistics_Services_Contract.pdf",
+        "path": "batch1/01_Logistics_Services_Contract.pdf",
+        "document_type": "CONTRACT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "02_Invoice_OL_2024_0087.pdf",
+        "path": "batch1/02_Invoice_OL_2024_0087.pdf",
+        "document_type": "INVOICE",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "03_Email_dispute.pdf",
+        "path": "batch1/03_Email_dispute.pdf",
+        "document_type": "EMAIL",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "04_Legal_Notice.pdf",
+        "path": "batch1/04_Legal_Notice.pdf",
+        "document_type": "LEGAL_NOTICE",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ],
+    "2": [
+      {
+        "file": "05_Bank_statement_April_2025.pdf",
+        "path": "batch2/05_Bank_statement_April_2025.pdf",
+        "document_type": "BANK_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "06_Plaint.pdf",
+        "path": "batch2/06_Plaint.pdf",
+        "document_type": "PLAINT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "07_Written_Statement.pdf",
+        "path": "batch2/07_Written_Statement.pdf",
+        "document_type": "WRITTEN_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "08_Order_03_Oct_2025.pdf",
+        "path": "batch2/08_Order_03_Oct_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ]
+  }
+}

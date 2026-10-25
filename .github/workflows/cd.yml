@@ -1,0 +1,21 @@
+name: CD (manual)
+# Deploys a built image tag to a single VM over SSH. Needs repository secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY.
+# Disabled until you run it by hand (workflow_dispatch); images come from the CI "images" job.
+on:
+  workflow_dispatch:
+    inputs:
+      tag: { description: "image tag (commit SHA) to deploy", required: true }
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production        # add required reviewers on this environment for an approval gate
+    steps:
+      - uses: webfactory/ssh-agent@v0.9.0
+        with: { ssh-private-key: "${{ secrets.DEPLOY_SSH_KEY }}" }
+      - name: Pull and restart
+        run: |
+          ssh -o StrictHostKeyChecking=accept-new "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "cd /opt/legal-workspace && IMAGE_TAG=${{ inputs.tag }} docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod pull && \
+             IMAGE_TAG=${{ inputs.tag }} docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d && \
+             sleep 20 && docker compose exec -T api curl -fsS http://localhost:8000/api/v1/healthz"

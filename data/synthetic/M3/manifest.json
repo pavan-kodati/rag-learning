@@ -1,0 +1,100 @@
+{
+  "id": "M3",
+  "number": "CS(COMM) 77/2025",
+  "title": "Sunrise Beverages Private Limited v Coastal Brands Limited",
+  "type": "TERMINATION_INJUNCTION",
+  "forum": "High Court of Delhi, Commercial Division",
+  "description": "Distributor terminated after a cure notice; the sides disagree on when the notice was received; interim status quo is extended; arbitration clause raised.",
+  "batches": {
+    "1": [
+      {
+        "file": "01_Exclusive_Distribution_Agreement.pdf",
+        "path": "batch1/01_Exclusive_Distribution_Agreement.pdf",
+        "document_type": "CONTRACT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "02_Notice_of_Breach_2_Feb_2025.pdf",
+        "path": "batch1/02_Notice_of_Breach_2_Feb_2025.pdf",
+        "document_type": "LEGAL_NOTICE",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "03_Reply_to_Notice_20_Feb_2025.pdf",
+        "path": "batch1/03_Reply_to_Notice_20_Feb_2025.pdf",
+        "document_type": "REPLY_NOTICE",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "04_Notice_of_Termination_scanned.pdf",
+        "path": "batch1/04_Notice_of_Termination_scanned.pdf",
+        "document_type": "LEGAL_NOTICE",
+        "duplicate_of": null,
+        "scanned": true
+      }
+    ],
+    "2": [
+      {
+        "file": "05_Plaint.pdf",
+        "path": "batch2/05_Plaint.pdf",
+        "document_type": "PLAINT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "06_Application_Order_39.pdf",
+        "path": "batch2/06_Application_Order_39.pdf",
+        "document_type": "APPLICATION",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "07_Affidavit_of_R_Kapoor.pdf",
+        "path": "batch2/07_Affidavit_of_R_Kapoor.pdf",
+        "document_type": "AFFIDAVIT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "08_Order_28_March_2025.pdf",
+        "path": "batch2/08_Order_28_March_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "08b_Order_28_March_2025_copy.pdf",
+        "path": "batch2/08b_Order_28_March_2025_copy.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": "08_Order_28_March_2025.pdf",
+        "scanned": false
+      }
+    ],
+    "3": [
+      {
+        "file": "09_Written_Statement.pdf",
+        "path": "batch3/09_Written_Statement.pdf",
+        "document_type": "WRITTEN_STATEMENT",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "10_Order_12_May_2025.pdf",
+        "path": "batch3/10_Order_12_May_2025.pdf",
+        "document_type": "ORDER",
+        "duplicate_of": null,
+        "scanned": false
+      },
+      {
+        "file": "11_Hearing_note_12_May_2025.pdf",
+        "path": "batch3/11_Hearing_note_12_May_2025.pdf",
+        "document_type": "HEARING_NOTE",
+        "duplicate_of": null,
+        "scanned": false
+      }
+    ]
+  }
+}
