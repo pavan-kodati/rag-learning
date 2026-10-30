@@ -1,5 +1,7 @@
 # Deployment plan (DevOps)
 
+> **Want click-by-click AWS instructions?** See [`AWS_DEPLOYMENT_GUIDE.md`](AWS_DEPLOYMENT_GUIDE.md). This page is the overview; use `deploy/deploy.sh` for everything on a server.
+
 Everything below uses open-source software only. **Status legend:** ✅ run and verified in the build sandbox · 🟡 written but not run (no Docker daemon / cloud there) — review before first use.
 
 ## 0. Environments
@@ -52,8 +54,7 @@ Hardware guide: 16 GB RAM laptop runs `qwen3:4b` comfortably and `qwen3:8b` slow
 
 1. VM: 4 vCPU / 16 GB (CPU models) or a GPU VM; Docker + Compose ≥ 2.24 (the overlay uses `!reset`). Open ports 80/443 only.
 2. `git clone` to `/opt/legal-workspace`; `cp deploy/.env.prod.example deploy/.env.prod` and fill in secrets (long random `JWT_SECRET`, `POSTGRES_PASSWORD`, real `AUTH_USERS`).
-3. `docker login ghcr.io` (images are private by default), then
-   `IMAGE_TAG=<commit sha> docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d`.
+3. `deploy/deploy.sh up` (builds on the server; no registry login needed), then `deploy/deploy.sh pull-models`. GPU hosts are detected automatically (`deploy/docker-compose.gpu.yml`).
 4. Point DNS `PUBLIC_HOST` at the VM; Caddy obtains the certificate automatically.
 5. Backups: cron `deploy/backup.sh /backups` nightly (DB dump + stored files, 14-day retention). **Practise a restore** before relying on it.
 
@@ -63,7 +64,7 @@ Hardware guide: 16 GB RAM laptop runs `qwen3:4b` comfortably and `qwen3:8b` slow
 | ----- | ---- | ----- |
 | Pull request | ruff, ruff-format, mypy, pytest (+ coverage) against a pgvector service; UI lint, typecheck, vitest, build | `.github/workflows/ci.yml` ✅ commands run locally; workflow itself 🟡 until it runs on GitHub |
 | main | build and push `api` and `ui` images to GHCR tagged with the commit SHA | `ci.yml` job `images` 🟡 |
-| Release | manual `workflow_dispatch`: SSH to the VM, `pull`, `up -d`, health check; protect with a GitHub *environment* approval | `.github/workflows/cd.yml` 🟡 |
+| Release | manual `workflow_dispatch`: SSH to the VM and run `deploy/deploy.sh update <ref>` (builds on the server), then `status`; protect with a GitHub *environment* approval | `.github/workflows/cd.yml` 🟡 |
 | Rollback | re-run CD with the previous SHA. Migrations are forward-only and additive, so the old image keeps working against the new schema for one release | — |
 
 Recommended additions once the pilot is live: Dependabot, `pip-audit`/`npm audit` and Trivy image scan in CI, a nightly `lw-eval` against a staging model server with the result posted to the PR.

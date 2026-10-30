@@ -1,0 +1,11 @@
+# Adds the NVIDIA GPU to the bundled Ollama container. Used automatically by deploy/deploy.sh when `nvidia-smi` works.
+# Needs the NVIDIA driver + NVIDIA Container Toolkit on the host (the AWS "Deep Learning Base ... GPU AMI" has both).
+services:
+  ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

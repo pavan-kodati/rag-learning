@@ -1,21 +1,37 @@
-name: CD (manual)
-# Deploys a built image tag to a single VM over SSH. Needs repository secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY.
-# Disabled until you run it by hand (workflow_dispatch); images come from the CI "images" job.
+name: Deploy to server (manual)
+# OPTIONAL. Logs in to your server over SSH and runs `deploy/deploy.sh update <ref>` (git checkout + docker build + restart).
+# Nothing runs until you click "Run workflow" in the Actions tab. Setup steps: docs/AWS_DEPLOYMENT_GUIDE.md, part 8.
+# Repository secrets needed: DEPLOY_HOST (server IP or name), DEPLOY_USER (e.g. ubuntu), DEPLOY_SSH_KEY (private key, see guide).
 on:
   workflow_dispatch:
     inputs:
-      tag: { description: "image tag (commit SHA) to deploy", required: true }
+      ref:
+        description: "Branch, tag or commit SHA to deploy (to roll back, give an older one)"
+        required: true
+        default: main
+
+concurrency: deploy-production       # never two deploys at once
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: production        # add required reviewers on this environment for an approval gate
+    environment: production          # Settings > Environments > production > "Required reviewers" adds an approval step
     steps:
-      - uses: webfactory/ssh-agent@v0.9.0
-        with: { ssh-private-key: "${{ secrets.DEPLOY_SSH_KEY }}" }
-      - name: Pull and restart
+      - name: Install SSH key
         run: |
-          ssh -o StrictHostKeyChecking=accept-new "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
-            "cd /opt/legal-workspace && IMAGE_TAG=${{ inputs.tag }} docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod pull && \
-             IMAGE_TAG=${{ inputs.tag }} docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d && \
-             sleep 20 && docker compose exec -T api curl -fsS http://localhost:8000/api/v1/healthz"
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+      - name: Deploy
+        env:
+          REF: ${{ inputs.ref }}
+        run: |
+          [[ "$REF" =~ ^[A-Za-z0-9._/-]+$ ]] || { echo "invalid ref"; exit 1; }
+          ssh -i ~/.ssh/id_deploy "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "cd /opt/legal-workspace && deploy/deploy.sh update '$REF'"
+      - name: Health check
+        run: |
+          sleep 20
+          ssh -i ~/.ssh/id_deploy "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "cd /opt/legal-workspace && deploy/deploy.sh status"

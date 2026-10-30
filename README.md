@@ -10,7 +10,8 @@ A locally runnable, open-source, zero-cost implementation of the *Legal Workspac
 | Architecture blueprint (input) | [`docs/source/ARCHITECTURE_BLUEPRINT_v3.md`](docs/source/ARCHITECTURE_BLUEPRINT_v3.md) |
 | My review / deviations | [`docs/ARCHITECTURE_REVIEW.md`](docs/ARCHITECTURE_REVIEW.md) |
 | How it was built (AADLC) | [`docs/AADLC.md`](docs/AADLC.md) → per-section spec · plan · report in [`docs/sections/`](docs/sections) |
-| Deployment plan (DevOps) | [`docs/DEPLOYMENT_PLAN.md`](docs/DEPLOYMENT_PLAN.md) |
+| **Deploy on AWS, step by step (beginner guide)** | [`docs/AWS_DEPLOYMENT_GUIDE.md`](docs/AWS_DEPLOYMENT_GUIDE.md) |
+| Deployment plan (DevOps overview) | [`docs/DEPLOYMENT_PLAN.md`](docs/DEPLOYMENT_PLAN.md) |
 | Testing guide | [`docs/TESTING.md`](docs/TESTING.md) |
 
 > **Status, honestly.** 591 backend tests + 44 UI tests + a Playwright browser flow pass; ruff and mypy are clean; the evaluation harness scores 37/37 golden questions and 23/23 planted changes **in fixture mode**.

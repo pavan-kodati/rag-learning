@@ -4,6 +4,6 @@
 set -euo pipefail
 OUT="${1:?usage: backup.sh <dir>}"; STAMP=$(date +%Y%m%d-%H%M%S); mkdir -p "$OUT"
 docker compose exec -T db pg_dump -U lw legal_workspace | gzip > "$OUT/db-$STAMP.sql.gz"
-docker compose run --rm -T --no-deps -v "$OUT":/out api sh -c 'tar czf /out/storage-'"$STAMP"'.tgz -C /app/storage .'
+docker compose run --rm -T --no-deps -u root -v "$OUT":/out api sh -c 'tar czf /out/storage-'"$STAMP"'.tgz -C /app/storage .'
 find "$OUT" -type f -mtime +14 -delete
 echo "backup written to $OUT ($STAMP)"
